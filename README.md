@@ -6,6 +6,6 @@ For a full, detailed project description, please take a look at Description.pdf.
 
 1. Install Weaviate plus vectorizer via Docker as images, run them as containers.
 2. Specify a schema for data, upload data (in .json format) to have it be vectorized.
-3. Run a query (which gets vectorized and sim-searched), get back results (as JSON)
+3. Run a query (which gets vectorized and sim-searched), get back results (as JSON).
 
 Steps 1 and 2 are detailed in Description.pdf. Step 3 can be seen in cat_query.png; step 3 uses data.json. There are 5 important files: data.json, docker-compose.yml, serveit.py, weave-doQuery.sh, and weave.loadData.py.
